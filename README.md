@@ -1,5 +1,5 @@
 # CourseJS
-A nice project with a nice description
+A nice project with a nice description!
 
 ---
 ## Requirements
