@@ -1,0 +1,22 @@
+{
+  "name": "coursejs",
+  "version": "1.0.0",
+  "description": "Project for Mocha test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtyomYuryshev/CourseJS.git"
+  },
+  "author": "ArtyomYuryshev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtyomYuryshev/CourseJS/issues"
+  },
+  "homepage": "https://github.com/ArtyomYuryshev/CourseJS#readme",
+  "dependencies": {
+    "mocha": "^6.1.4"
+  }
+}
