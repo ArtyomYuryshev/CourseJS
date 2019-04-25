@@ -1,6 +1,31 @@
+"use strict";
+
+const logWithTag = (tag, text) =>{
+    console.log(`[${text}] ${new Date()} | ${text} [${tag}]`);
+}
+
 class log{
     info(text){
-        console.log(`[INFO] ${text} [INFO]`);
+        let i = 12;
+        console.log(i);
+        logWithTag('INFO', text)
+    
+    }
+    warning(text){
+        logWithTag('WARNING', text)
+    
+    }
+    error(text){
+        logWithTag('ERROR', text)
+    }
+}
+
+module.exports = new log();
+
+/*
+class log{
+    info(text){
+        console.log(`[INFO] ${new Date()} | ${text} [INFO]`);
     
     }
     warning(text){
@@ -13,3 +38,4 @@ class log{
 }
 
 module.exports = new log();
+*/
